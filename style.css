@@ -1,1 +1,25 @@
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    
+}
+input, select {
+    font-size: 22px;
+}
+form {
+    margin: 50px auto;
+    padding: 30px 50px;
+    width: 80%;
+    background-color: #eee;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content__item {
+    flex-basis: 30%;
+    justify-content: space-evenly;
+}
