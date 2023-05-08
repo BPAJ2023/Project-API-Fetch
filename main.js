@@ -1,1 +1,3 @@
-
+fetch(url)
+.then
+.catch
