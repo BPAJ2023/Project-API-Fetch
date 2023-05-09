@@ -36,5 +36,4 @@ const addUserToPage = (data) => {
         content.appendChild(userItem);
 })
 };
-
 document.querySelector('form').addEventListener('submit', getResult);
