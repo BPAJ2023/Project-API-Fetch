@@ -18,8 +18,23 @@ form {
 .content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 .content__item {
-    flex-basis: 30%;
+    flex-basis: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px;
+    padding: 10px 30px;
     justify-content: space-evenly;
+    align-items: center;
+    border: double red 2px;
+    border-radius: 10px;
+}
+.content__txt{
+    margin-left: 2px;
+    line-height: 22px;
 }
